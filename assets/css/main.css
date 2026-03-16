@@ -787,6 +787,19 @@ section,
   line-height: 0;
 }
 
+.about img {
+    max-width: 350px;  /* Adjust this value */
+    height: auto;
+    border-radius: 10px;  /* Optional: rounded corners */
+}
+
+/* For a perfectly square image that maintains aspect ratio */
+.about img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;  /* This crops the image to fit */
+    border-radius: 10px;
+}
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
